@@ -1,11 +1,14 @@
-[Test]
+Test
+-----
 node testrunner.js
 
-[Using (client and server-side)]
+Using (client and server-side)
+------------------------------
 var objeto = Object.create({test:{test2:{method: {id:10} }}})
 objeto.trying("test.test2.method.id") == 10
 
-[Running tests in my machine with]
+Running tests in my machine with
+--------------------------------
 node  0.3.4-pre
 npm   0.2.13-3
 qunit 0.1.2
