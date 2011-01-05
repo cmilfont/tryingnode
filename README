@@ -1,0 +1,7 @@
+Test
+node testrunner.js
+
+Using
+var objeto = Object.create({test:{test2:{method: {id:10} }}})
+objeto.trying("test.test2.method.id") == 10
+
