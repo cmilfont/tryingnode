@@ -1,0 +1,14 @@
+{
+  "name"          : "trying"
+, "version"       : "1.0.0"
+, "description"   : "try method like rails for Node"
+, "homepage"      :  "http://www.milfont.org/tech/2011/01/04/problemas-com-prototype-no-javascript/"
+, "repository"    : { "type" : "git", "url"  : "git@github.com:cmilfont/tryingnode.git"}
+, "keywords"      : ["testing", "try"]
+, "author"        : "Christiano Milfont <cmilfont@gmail.com>"
+, "contributors"  : []
+, "maintainers"   : "Christiano Milfont <cmilfont@gmail.com>"
+, "licenses"      : ["MIT"]
+, "dependencies"  : []
+, "main"          : "./lib/trying"
+}
