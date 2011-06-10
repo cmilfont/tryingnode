@@ -1,4 +1,4 @@
-test("Um teste simples", function() {
+test("Tentar conteúdo de uma propriedade sem lançar exceção", function() {
   var objeto = Object.create({test:10})
   ok( objeto.trying("test") == 10, "" );
 });
