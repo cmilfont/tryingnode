@@ -9,6 +9,6 @@
 , "contributors"  : []
 , "maintainers"   : "Christiano Milfont <cmilfont@gmail.com>"
 , "licenses"      : ["MIT"]
-, "dependencies"  : []
+, "dependencies"  : {"qunit":"0.1.3"}
 , "main"          : "./lib/trying"
 }
