@@ -15,9 +15,5 @@ test("Propriedades falsa de objetos aninhados", function() {
 
 test("Verificar condicional a partir do trying", function() {
   var objeto = Object.create({test:{test2:{method: {name:"Test Success"} }}});
-  if( objeto.trying("test.test2.method.name") === "Test Success") {
-  	ok(true);
-  } else {
-  	ok(false);
-  }
+  ok( objeto.trying("test.test2.method.name") === "Test Success" );
 });
